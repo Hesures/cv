@@ -1,0 +1,108 @@
+/******************** TAG SELECTORS ********************/
+
+
+
+/******************** CLASS SELECTORS ********************/
+
+body {
+    margin: 0;
+    background-color: #F9F5E7;
+    font-family: 'Libre Baskerville', serif;
+}
+
+footer {
+    margin: 5% 7%;
+}
+
+hr {
+    height: 0px;
+    border-top-width: 5px;
+    width: 3%;
+    border-style: dotted none none;
+    background-color: #FEFAE0;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h1, h3 {
+    color: #5e4118;
+    font-family: 'Cinzel', serif;
+}
+
+h3 {
+    font-size: 2rem;
+    display: inline-block;
+    margin: 0;
+}
+
+ul li::marker {
+    color: #5e4118;
+}
+
+.separator {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.line {
+    display: inline-block;
+    margin: 0;
+    opacity: 15%;
+    height: 2rem;
+}
+
+.table-container {
+    overflow-x:auto;
+}
+
+.margin-left {
+    margin: 0 25% 5% 0;
+}
+
+/***********************  ID SELECTORS ***************************/
+
+
+/***********************  FIRST SECTION ***************************/
+
+.first-section {
+    width: 48%;
+    display: inline-block;
+    visibility:hidden;
+}
+
+.img-jesus {
+    width: 50%;
+    padding: 0 25%;
+}
+
+/***********************  MEDIA ***************************/
+
+@media (max-width: 900px) {
+    .line {
+        height: 1.5rem;
+    }
+    .margin-left {
+        margin: 0;
+    }
+}
+@media (max-width: 780px) {
+    .line {
+        height: auto;
+        width: 20%;
+    }
+}
+@media (max-width: 680px) {
+    .line {
+        display: block;
+        height: auto;
+        margin: 0 auto;
+    }
+    body {
+        margin: 0 5%;
+    }
+}
+
+
