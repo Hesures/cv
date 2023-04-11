@@ -111,6 +111,9 @@ ul li::marker {
         height: auto;
         width: 20%;
     }
+    .margin-left {
+        margin: 0;
+    }
 }
 @media (max-width: 680px) {
     .line {
