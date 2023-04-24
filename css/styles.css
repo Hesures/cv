@@ -1,4 +1,4 @@
-/******************** TAG SELECTORS ********************/
+/******************** ELEMENT SELECTORS ********************/
 a {
     text-decoration: none;
     color: black;
@@ -8,10 +8,6 @@ body {
     margin: 0;
     background-color: #F9F5E7;
     font-family: 'Libre Baskerville', serif;
-}
-
-footer {
-    margin: 5% 7%;
 }
 
 hr {
@@ -90,6 +86,27 @@ ul li::marker {
 }
 .center {
     text-align: center;
+}
+
+/*********************** FOOTER ***************************/
+
+footer {
+    margin: 5% 0 0;
+    background-color: #5e4118;
+    padding: 5%;
+    text-align: center;
+}
+
+footer a{
+    color: #F9F5E7;
+    padding: 0 3%;
+}
+
+.footer-text {
+    font-size: 0.7rem;
+    color: #F9F5E7;
+    opacity: 50%;
+    line-height: 4;
 }
 
 
