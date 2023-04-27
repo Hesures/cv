@@ -69,7 +69,7 @@ ul li::marker {
     gap: 0.2rem;
 }
 
-.margin-left {
+section {
     margin: 0 25%;
 }
 
@@ -118,6 +118,19 @@ footer a{
     line-height: 4;
 }
 
+.footer-div {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.footer-div div {
+    padding: 1%;
+}
+
+.footer-div img{
+    width: 50%;
+}
 
 /***********************  MEDIA ***************************/
 
@@ -128,20 +141,19 @@ footer a{
     .line {
         height: 1.5rem;
     }
-    body {
-        margin: 0 5%;
+    section {
+        margin: 0 10%;
     }
+
 }
 @media (max-width: 780px) {
     .line {
         height: auto;
         width: 20%;
     }
-    .margin-left {
-        margin: 0;
-    }
+
 }
-@media (min-width: 339px) and (max-width: 680px) {
+@media (min-width: 300px) and (max-width: 680px) {
     .line {
         display: block;
         height: auto;
@@ -149,6 +161,9 @@ footer a{
     }
     p {
         font-size: 0.8rem;
+    }
+    section {
+        margin: 0 4%;
     }
 }
 
